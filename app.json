@@ -19,10 +19,19 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.easwarconnect.MyApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d939ccc4-29b7-412a-b5fb-4d71d46c7491"
+      }
+    },
+    "plugins": [
+      "expo-facebook"
+    ]
   }
 }
